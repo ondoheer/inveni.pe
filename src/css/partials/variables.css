@@ -1,0 +1,20 @@
+:root{
+    --primary-color: rgba(74,74,74, 1);
+    --support-color1: #c27ba0;
+    --support-color1--dark: #b16a90;
+    --support-color2: #76a5af;
+
+    /*Fonts */
+    --main-font: 'Merriweather', serif;
+    --sec-font: 'Alice', serif;
+    --title-font: 'IM Fell DW Pica SC', serif;
+    /*Font colors*/
+    --text-color-dark: #000;
+    --text-color-medium: #595959;
+    --text-color-medium-alt: rgba(255, 255, 255, 0.5);
+    --text-color-light: #fff; 
+}
+
+body{
+    font-family: var(--main-font);
+}

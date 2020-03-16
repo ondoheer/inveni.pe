@@ -1,0 +1,23 @@
+.c-footer,
+.c-footer a{
+    color: var(--text-color-light)
+}
+
+.c-footer__layout{
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-footer .c-copy{
+    display: flex;
+    align-items: center;
+}
+
+.c-footer .c-contact-data{
+    list-style: none;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 13px;
+}

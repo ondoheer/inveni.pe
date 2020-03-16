@@ -1,0 +1,32 @@
+.c-header__layout{
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-header img{
+    filter: invert(1);
+    width: 200px;
+}
+
+.c-header .nav{
+    height: 100%;
+    align-items: center;
+}
+
+.c-header .navbar-dark .navbar-nav .nav-link{
+    color: var(--text-color-light);
+    font-family: var(--sec-font);
+}
+
+.c-header .navbar-dark .navbar-nav .nav-link.active,
+.c-header .navbar-dark .navbar-nav .nav-link:hover,
+.c-header .nav-link.active{
+    color: var(--support-color1);
+}
+
+.c-header .navbar-collapse.collapsing .navbar-nav,
+.c-header .navbar-collapse.show .navbar-nav{
+    align-items: end;
+}
+

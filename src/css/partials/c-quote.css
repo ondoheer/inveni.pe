@@ -1,0 +1,34 @@
+.c-quote__text{
+    font-size: 1.6em;
+    text-align: center;
+    color: var(--text-color-medium);
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+.c-quote__footer{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: end;
+    color: var(--support-color1);
+}
+
+
+.c-quote__text:before {
+    
+    content: open-quote;
+    
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    
+  }
+
+
+  .c-quote__text:after {
+    
+    content: close-quote;
+    
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    
+  }
