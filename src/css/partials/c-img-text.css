@@ -1,0 +1,68 @@
+/*IMG TEXT HORIZ*/
+.c-img-text-horiz{
+
+}
+@media screen and (max-width: 991px){
+    .c-img-text-horiz{
+        text-align: center;
+    }
+    .c-img-text-horiz img{
+        margin: 0 auto 1rem;
+    }
+}
+
+
+/*IMG TEXT VERT*/
+.c-img-text-vert{
+    text-align: center;
+}
+.c-img-text-vert__icon{
+    width: 125px;
+    margin-bottom: 30px;
+}
+.c-img-text-vert--right-arrow{
+    position: relative;
+}
+.c-img-text-vert--right-arrow:after{
+    content: "";
+    background-image: url("../../../assets/selected/arrow.png");
+    background-size: cover;
+    transform: rotateX(180deg) rotate(35deg);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    position: absolute;
+    right: -105px;
+    top: 50%;
+}
+
+@media screen and (max-width: 991px){
+    .c-img-text-vert--right-arrow:after{
+        display: none;
+    }
+}
+
+/*
+IMage title text box
+*/
+.c-img-tit-text-box{
+    display: block;
+    height: 100%;
+    padding: 3rem 2rem;
+    border: 3px solid var(--primary-color);
+    cursor: pointer;
+}
+
+.c-img-tit-text-box:hover{
+    background-color: var(--support-color1);
+    transition: background-color 0.8s;
+}
+
+.c-img-tit-text-box:hover .c-img-tit-text-box__title{
+    color: var(--text-color-light);
+    transition: color 0.8s;
+}
+
+.c-img-tit-text-box__title{
+color: var(--support-color1);
+}

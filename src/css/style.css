@@ -2,25 +2,8 @@
 @import "partials/utils.css";
 @import "partials/c-header.css";
 @import "partials/c-quote.css";
+@import "partials/c-section-heading.css";
+@import "partials/c-img-text.css";
 @import "partials/c-footer.css";
 
 
-.titulo::before{
-    content: "";
-    position: relative;
-    border-bottom: 2px solid #000;
-    width: 100px;
-    top: 50%;
-    left: -115px;
-    display: block;
-}
-
-.titulo::after{
-    content: "";
-    position: relative;
-    border-bottom: 2px solid #000;
-    width: 100px;
-    top: 50%;
-    right: 115px;
-    display: block;
-}
