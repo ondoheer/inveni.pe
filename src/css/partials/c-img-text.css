@@ -48,9 +48,10 @@ IMage title text box
 .c-img-tit-text-box{
     display: block;
     height: 100%;
-    padding: 3rem 2rem;
+    padding: 2rem 4rem;
     border: 3px solid var(--primary-color);
     cursor: pointer;
+    
 }
 
 .c-img-tit-text-box:hover{

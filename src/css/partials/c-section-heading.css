@@ -2,18 +2,16 @@
     margin: 10rem auto 6rem auto;
 }
 
-@media screen and (max-width: 991px){
-    .c-section-heading{
-        margin: 6rem auto 4rem auto;
-    }
-}
+
 
 .c-section-heading-border{
     border-top: 2px solid var(--primary-color);
 height: 19px;
 
 }
-
+.c-secction-heading--small-mt{
+    margin: 0 auto 4rem auto;
+}
 .c-section-heading-border .c-section-heading__title{
     display: inline-block;
 zoom: 1;
@@ -35,4 +33,10 @@ padding: 7px 20px;
     letter-spacing: 1px;
     line-height: 25px;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 991px){
+    .c-section-heading{
+        margin: 6rem auto 4rem auto;
+    }
 }

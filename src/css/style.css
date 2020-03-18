@@ -1,9 +1,12 @@
 @import "partials/variables.css";
 @import "partials/utils.css";
+@import "partials/u-backgrounds.css";
 @import "partials/c-header.css";
 @import "partials/c-quote.css";
 @import "partials/c-section-heading.css";
 @import "partials/c-img-text.css";
+@import "partials/c-message-panel.css";
+@import "partials/c-contact-form.css";
 @import "partials/c-footer.css";
 
 

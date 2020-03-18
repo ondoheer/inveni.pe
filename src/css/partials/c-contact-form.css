@@ -1,0 +1,43 @@
+.c-contact-form{
+    background-color: var(--primary-color);
+    padding: 1.5rem 2.5rem;
+    font-size: 17px;
+    
+}
+
+.c-contact-form input,
+.c-contact-form textarea{
+    background-color: var(--text-color-light-grey);
+    border: none;
+    border-radius: 5px;
+    line-height: 1.6;
+    padding: 5px 10px;
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+}
+
+.c-contact-form textarea{
+    width: 100%;
+}
+
+.c-contact-form label{
+    color: var(--text-color-light);
+}
+
+.c-contact-form button[type=submit]{
+    border: none;
+    border-radius: 5px;
+    background-color: var(--support-color1);
+    color: var(--text-color-light);
+    padding: 7px 50px;
+
+}
+.c-contact-form button[type=submit]:hover{
+    background-color: var(--text-color-medium-alt);
+}
+
+.c-contact-form input::placeholder,
+.c-contact-form textarea::placeholder{
+    font-size: 14px;
+}
