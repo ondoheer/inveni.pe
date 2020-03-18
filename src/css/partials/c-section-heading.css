@@ -23,6 +23,7 @@ margin-top: -21px;
 padding: 7px 20px;
 }
 .c-section-heading__title{
+    
     font-family: var(--main-font), Circe,Arial,Helvetica,sans-serif;
     background: var(--primary-color);
     border: 2px solid var(--primary-color);
