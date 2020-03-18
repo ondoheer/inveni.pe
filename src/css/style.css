@@ -10,3 +10,6 @@
 @import "partials/c-footer.css";
 
 
+html {
+    scroll-behavior: smooth;
+  }
