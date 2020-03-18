@@ -22,7 +22,7 @@
             <nav class="c-main-menu navbar navbar-dark navbar-expand-lg justify-content-between">
                 <a class="navbar-brand" href="#">
 
-                    <img src="./assets/inveni-logo.svg" alt="Logo Inveni"></a>
+                    <img id="logo" src="./assets/inveni-logo.svg" alt="Logo Inveni"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -42,13 +42,14 @@
         </div>
     </header>
 
-    <main class="">
+    <main id="content" class="main-content">
 
         <div class="u-bkg-seo   u-py-l">
             <div class="container">
 
-                <blockquote class="c-quote col-12 col-lg-10 offset-lg-1">
-                    <p class="c-quote__text"> El punto es simple: hablar sobre los problemas del mundo sin hablar de
+                <blockquote class="c-quote c-quote--large col-12 col-lg-10 offset-lg-1">
+                    <p class="c-quote__text "> El punto es simple: hablar sobre los problemas del
+                        mundo sin hablar de
                         soluciones accesibles es un
                         camino directo a la parálisis, no al progreso. </p>
                     <footer class="c-quote__footer">
@@ -62,7 +63,7 @@
 
 
                 </blockquote>
-                <div class=""></div>
+
             </div>
 
         </div>
@@ -162,7 +163,7 @@
             <div class="row">
                 <div class="col-12 col-md-6 u-mb-m">
 
-                    <a class="c-img-tit-text-box ">
+                    <a href="./servicios.html#desarrollo-estrategico" class="c-img-tit-text-box ">
                         <img src="./assets/selected/servicios 1.PNG" alt="">
                         <h3 class="c-img-tit-text-box__title">Desarrollo estratégico</h3>
                         <p>Co-diseñamos estrategias para ayudar a las instituciones a lograr mejores resultados con los
@@ -170,7 +171,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-md-6 u-mb-m">
-                    <a class="c-img-tit-text-box">
+                    <a href="./servicios.html#liderazgo-gestion" class="c-img-tit-text-box">
                         <img src="./assets/selected/servicios 2.PNG" alt="">
                         <h3 class="c-img-tit-text-box__title">Liderazgo y Gestión</h3>
                         <p>Diseñamos e implementamos intervenciones de liderazgo y habilidades de gestión para mejorar
@@ -179,7 +180,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-md-6 u-mb-m">
-                    <a class="c-img-tit-text-box">
+                    <a href="./servicios.html#apoyo-implementacion" class="c-img-tit-text-box">
                         <img src="./assets/selected/servicios 3.PNG" alt="">
                         <h3 class="c-img-tit-text-box__title">Apoyo en implemetación</h3>
                         <p>Proveemos a apoyo hands-on para ayudar a instituciones públicas y privadas implementar
@@ -187,7 +188,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-md-6 u-mb-m">
-                    <a class="c-img-tit-text-box">
+                    <a href="./servicios.html#mejora-calidad-servicios" class="c-img-tit-text-box">
                         <img src="./assets/selected/servicios 4.PNG" alt="">
                         <h3 class="c-img-tit-text-box__title">Mejora de claidad de servicios
                         </h3>
@@ -265,10 +266,11 @@
             </div>
         </div>
     </footer>
+    <a href="#content" id="toTheTop" class="c-to-top">&and;</a>
 
     <script src="vendor/jquery/jquery.slim-3.4.1.min.js"></script>
     <script src="vendor/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
-    <script></script>
+    <script src="./src/js/index.js"></script>
 </body>
 
 </html>

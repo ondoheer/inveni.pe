@@ -51,9 +51,17 @@ IMage title text box
     padding: 2rem 4rem;
     border: 3px solid var(--primary-color);
     cursor: pointer;
+    text-decoration: none;
+    color: var(--text-color-dark);
     
 }
 
+
+
+.c-img-tit-text-box:hover{
+    text-decoration: none;
+    color: inherit;
+}
 .c-img-tit-text-box:hover{
     background-color: var(--support-color1);
     transition: background-color 0.8s;
@@ -66,4 +74,13 @@ IMage title text box
 
 .c-img-tit-text-box__title{
 color: var(--support-color1);
+}
+
+/*
+IMage title text box quote
+*/
+
+.c-img-tit-text-quote h2{
+    color: var(--support-color2);
+    text-transform: uppercase;
 }

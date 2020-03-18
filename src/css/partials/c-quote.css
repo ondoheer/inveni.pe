@@ -2,14 +2,35 @@
 
 .c-quote{
   background-color: #fff;
+  
+}
+
+.c-quote--large{
   padding: 4rem;
 }
-.c-quote__text{
-    font-size: 1.6em;
-    text-align: center;
-    color: var(--text-color-medium);
-    quotes: "\201C" "\201D" "\2018" "\2019";
+
+.c-quote--large .c-quote__text{
+  font-size: 1.6em;
 }
+.c-quote__text{
+  
+  color: var(--text-color-medium);
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+
+.c-quote .c-quote__text--small+.c-quote__footer,
+.c-quote__text--small{
+  font-size: 0.8rem;
+}
+
+
+
+.c-quote__text--support1{
+  color: var(--support-color1);
+}
+
+
 
 .c-quote__footer{
     display: flex;

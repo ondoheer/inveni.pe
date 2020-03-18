@@ -1,4 +1,8 @@
-
+.c-header{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
 
 .c-header__layout{
    
@@ -9,6 +13,7 @@
 .c-header img{
     filter: invert(1);
     width: 200px;
+    transition: width ease 0.5s;
 }
 
 .c-header .nav{

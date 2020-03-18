@@ -18,3 +18,29 @@ html {
 section{
     scroll-margin-top: 80px;
 }
+
+.main-content{
+  padding-top: 105px;
+}
+
+.c-to-top{
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 45px;
+  height: 45px;
+  color: var(--text-color-light);
+  background-color: var(--support-color1);
+  text-align: center;
+  line-height: 45px;
+  font-size: 35px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.c-to-top:hover{
+  background-color: var(--support-color1--dark);
+  color: var(--text-color-light);
+  text-decoration: none;
+}
