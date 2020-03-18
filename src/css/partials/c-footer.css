@@ -22,3 +22,11 @@
     font-size: 13px;
     margin-top: 1rem;
 }
+
+.c-footer .c-contact-data a{
+    text-decoration: underline;
+}
+
+.c-footer .c-contact-data a:hover{
+    color: var(--support-color1);
+}
