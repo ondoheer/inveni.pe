@@ -1,0 +1,10 @@
+.c-bordered-list{
+    border: dashed var(--support-color1);
+    padding: 40px 10px;
+}
+
+.c-bordered-list h3{
+    color: var(--support-color1);
+    font-size: 1rem;
+    font-weight: 800;
+}
