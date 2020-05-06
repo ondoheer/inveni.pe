@@ -11,8 +11,12 @@
   border-top: 3px solid var(--primary-color);
   height: 19px;
 }
-.c-secction-heading--small-mt {
+.c-section-heading--small-mt {
   margin: 0 auto 4rem auto;
+}
+
+.c-section-heading--small-mb {
+  margin-bottom: 3.5rem;
 }
 
 .c-section-heading__title {
