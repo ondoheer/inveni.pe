@@ -1,5 +1,5 @@
 .c-section-heading {
-  margin: 7.5rem auto 4rem auto;
+  margin: 7.5rem auto 7rem auto;
 }
 
 .c-section-heading-border {
@@ -9,17 +9,7 @@
 .c-secction-heading--small-mt {
   margin: 0 auto 4rem auto;
 }
-.c-section-heading-border .c-section-heading__title {
-  display: inline-block;
-  zoom: 1;
-  vertical-align: top;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  letter-spacing: 1.5px;
-  margin-top: -30px;
-  padding: 7px 50px;
-  border: 4px solid white;
-}
+
 .c-section-heading__title {
   font-family: var(--title-font);
   background: var(--primary-color);
@@ -30,6 +20,22 @@
   height: 60px;
 
   text-transform: uppercase;
+}
+.c-section-heading-border .c-section-heading__title {
+  display: inline-block;
+  zoom: 1;
+  vertical-align: top;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  letter-spacing: 1.5px;
+  margin-top: -30px;
+  padding: 10px 50px;
+  border: 4px solid white;
+}
+
+.c-section-heading-border .c-section-heading__title--long {
+  /* This should use a longer column span than the regular one */
+  padding: 10px 30px;
 }
 
 @media screen and (max-width: 991px) {
