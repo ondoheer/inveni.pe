@@ -1,21 +1,31 @@
-:root{
-    --primary-color: rgba(74,74,74, 1);
-    --support-color1: #c27ba0;
-    --support-color1--dark: #b16a90;
-    --support-color2: #76a5af;
+:root {
+  --primary-color: #4a4a4a;
+  --primary-color-support: #666;
+  --support-color1: #c27ba0;
+  --support-color1--dark: #b3648f;
+  --support-color2: #76a5af;
 
-    /*Fonts */
-    --main-font: 'Merriweather', serif;
-    --sec-font: 'Alice', serif;
-    --title-font: 'IM Fell DW Pica SC', serif;
-    /*Font colors*/
-    --text-color-dark: #000;
-    --text-color-medium: #595959;
-    --text-color-medium-alt: rgba(255, 255, 255, 0.5);
-    --text-color-light-grey: #eee;
-    --text-color-light: #fff; 
+  /*Fonts */
+
+  --main-font: "Zilla Slab", serif;
+  --title-font: "IM Fell DW Pica SC", serif;
+  /* Font sizes */
+  --font-s-main-quotes: 30px;
+  --font-s-quote-data: 18px;
+  --font-s-body: 20px;
+  --font-s-body-sm: 16px;
+  --font-s-title: 30px;
+  --font-s-title-sm: 24px;
+  --font-s-title-lg: 36px;
+
+  /*Font colors*/
+  --text-color-dark: #000;
+  --text-color-medium: #595959;
+  --text-color-medium-alt: rgba(255, 255, 255, 0.5);
+  --text-color-light-grey: #eee;
+  --text-color-light: #fff;
 }
 
-body{
-    font-family: var(--main-font);
+body {
+  font-family: var(--main-font);
 }

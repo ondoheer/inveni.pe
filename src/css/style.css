@@ -10,23 +10,19 @@
 @import "partials/c-contact-form.css";
 @import "partials/c-footer.css";
 
-
 html {
-    scroll-behavior: smooth;
-    
-  }
-
-[id]{
-    scroll-margin-top: 120px;
+  scroll-behavior: smooth;
 }
 
-
-
-.main-content{
-  padding-top: 105px;
+[id] {
+  scroll-margin-top: 120px;
 }
 
-.c-to-top{
+.main-content {
+  padding-top: 82px;
+}
+
+.c-to-top {
   display: none;
   position: fixed;
   bottom: 40px;
@@ -42,7 +38,7 @@ html {
   border-radius: 5px;
 }
 
-.c-to-top:hover{
+.c-to-top:hover {
   background-color: var(--support-color1--dark);
   color: var(--text-color-light);
   text-decoration: none;

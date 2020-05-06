@@ -1,39 +1,41 @@
-.c-header{
-    position: fixed;
-    width: 100%;
-    z-index: 9999;
+.c-header {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 
-.c-header__layout{
-   
-    display: flex;
-    justify-content: space-between;
+.c-header__layout {
+  display: flex;
+  justify-content: space-between;
 }
 
-.c-header img{
-    filter: invert(1);
-    width: 200px;
-    transition: width ease 0.5s;
+.c-header img {
+  width: 200px;
+  transition: width ease 0.5s;
 }
 
-.c-header .nav{
-    height: 100%;
-    align-items: center;
+.c-header .nav {
+  height: 100%;
+  align-items: center;
 }
 
-.c-header .navbar-dark .navbar-nav .nav-link{
-    color: var(--text-color-light);
-    font-family: var(--sec-font);
+.c-header .navbar-dark .navbar-nav .nav-link {
+  color: var(--text-color-light);
+  font-family: var(--title-font);
+  text-transform: uppercase;
+  font-size: var(--font-s-body-sm);
+  font-weight: 400;
+  padding-left: 30px;
 }
 
 .c-header .navbar-dark .navbar-nav .nav-link.active,
 .c-header .navbar-dark .navbar-nav .nav-link:hover,
-.c-header .nav-link.active{
-    color: var(--support-color1);
+.c-header .nav-link.active {
+  color: var(--support-color1);
+  font-weight: 600;
 }
 
 .c-header .navbar-collapse.collapsing .navbar-nav,
-.c-header .navbar-collapse.show .navbar-nav{
-    align-items: end;
+.c-header .navbar-collapse.show .navbar-nav {
+  align-items: end;
 }
-
