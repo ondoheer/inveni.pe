@@ -1,61 +1,61 @@
-
-
-.c-quote{
+.c-quote {
   background-color: #fff;
+  color: var(--primary-color-support);
+}
+
+.c-quote--large {
+  padding: 8rem 4rem;
+}
+
+.c-quote--large .c-quote__text {
+  font-size: var(--font-s-main-quotes);
+}
+.c-quote__text {
   
+  font-family: var(--main-font);
+
+  font-weight: 300;
+  line-height: 40px;
+  quotes: "\201C""\201D""\2018""\2019";
 }
 
-.c-quote--large{
-  padding: 4rem;
-}
-
-.c-quote--large .c-quote__text{
-  font-size: 1.6em;
-}
-.c-quote__text{
-  
-  color: var(--text-color-medium);
-  quotes: "\201C" "\201D" "\2018" "\2019";
-}
-
-
-.c-quote .c-quote__text--small+.c-quote__footer,
-.c-quote__text--small{
+.c-quote .c-quote__text--small + .c-quote__footer,
+.c-quote__text--small {
   font-size: 0.8rem;
 }
 
-
-
-.c-quote__text--support1{
-  color: var(--support-color1);
+.c-quote__text--support1 {
+  color: var(--primary-color-support);
 }
 
-
-
-.c-quote__footer{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    align-items: end;
-    color: var(--support-color1);
+.c-quote__footer {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: end;
+  padding-right: 10px;
+  position: relative;
+  top: 3rem;
+  color: var(--primary-color-support);
+  border-right: var(--support-color) 3px solid;
+  font-size: var(--font-s-quote-data);
 }
 
+.c-quote__cite {
+  font-size: var(--font-s-body-sm);
+  font-weight: 600;
+}
 
 .c-quote__text:before {
-    
-    content: open-quote;
-    
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    
-  }
+  content: open-quote;
 
+  line-height: 0.1em;
+  /* margin-right: 0.25em; */
+}
 
-  .c-quote__text:after {
-    
-    content: close-quote;
-    
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    
-  }
+.c-quote__text:after {
+  content: close-quote;
+
+  line-height: 0.1em;
+  /* margin-right: 0.25em; */
+}

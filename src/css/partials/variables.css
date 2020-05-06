@@ -1,16 +1,15 @@
 :root {
   --primary-color: #4a4a4a;
   --primary-color-support: #666;
-  --support-color1: #c27ba0;
-  --support-color1--dark: #b3648f;
-  --support-color2: #76a5af;
+
+  --support-color: #b3648f;
 
   /*Fonts */
 
   --main-font: "Zilla Slab", serif;
   --title-font: "IM Fell DW Pica SC", serif;
   /* Font sizes */
-  --font-s-main-quotes: 30px;
+  --font-s-main-quotes: 28px;
   --font-s-quote-data: 18px;
   --font-s-body: 20px;
   --font-s-body-sm: 16px;
