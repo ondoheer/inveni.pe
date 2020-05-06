@@ -5,6 +5,7 @@
 @import "partials/c-quote.css";
 @import "partials/c-section-heading.css";
 @import "partials/c-img-text.css";
+@import "partials/c-carousel.css";
 @import "partials/c-message-panel.css";
 @import "partials/c-bordered-list.css";
 @import "partials/c-contact-form.css";
@@ -42,4 +43,29 @@ html {
   background-color: var(--support-color1--dark);
   color: var(--text-color-light);
   text-decoration: none;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-chevron-right {
+  width: 0.6787109375em;
+}
+
+.icon-chevron-left {
+  width: 0.75em;
 }

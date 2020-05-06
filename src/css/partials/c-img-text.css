@@ -26,6 +26,10 @@
   width: 125px;
   margin-bottom: 30px;
 }
+
+.c-img-text-vert__icon--scale-down {
+  height: 150px;
+}
 .c-img-text-vert__text {
   font-size: var(--font-s-body);
   font-weight: 600;

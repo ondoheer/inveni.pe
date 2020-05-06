@@ -2,6 +2,11 @@
   margin: 7.5rem auto 7rem auto;
 }
 
+.c-section-heading--inner {
+  color: var(--support-color);
+  font-family: var(--title-font);
+  font-size: var(--font-s-title);
+}
 .c-section-heading-border {
   border-top: 3px solid var(--primary-color);
   height: 19px;

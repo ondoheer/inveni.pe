@@ -1,0 +1,44 @@
+.c-carousel {
+}
+
+.c-carousel.slick-dotted.slick-slider {
+  margin-bottom: 7rem;
+}
+.c-carousel .slick-dots {
+  bottom: -60px;
+}
+.c-carousel .slick-dots li button {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+
+  opacity: 1;
+
+  background-color: var(--primary-color);
+}
+
+.c-carousel .slick-dots li.slick-active button {
+  background-color: var(--support-color);
+}
+
+.c-carousel .slick-dots li.slick-active button::before,
+.c-carousel .slick-dots li button::before {
+  color: transparent;
+}
+
+.c-carousel .slick-prev {
+  left: -70px;
+}
+.c-carousel .slick-next {
+  right: -50px;
+}
+.c-carousel .slick-next::before,
+.c-carousel .slick-prev::before {
+  color: var(--support-color);
+  font-size: 30px;
+  opacity: 1;
+}
+.c-carousel p {
+  font-size: var(--font-s-body);
+  color: var(--primary-color);
+}

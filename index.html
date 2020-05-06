@@ -13,6 +13,13 @@
       rel="stylesheet"
       href="./vendor/bootstrap-4.4.1-dist/css/bootstrap.min.css"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./vendor/slick-1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="./vendor/slick-1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="./assets/icofont/icofont.min.css" />
     <link rel="stylesheet" href="./src/css/style.css" />
   </head>
 
@@ -168,7 +175,7 @@
             ¿Qué Hacemos?
           </h2>
         </div>
-        <div class="row justify-content-lg-around u-mb-xl">
+        <div class="row justify-content-lg-around">
           <div
             class="c-img-text-vert col-10 offset-1 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-3 offset-lg-0"
           >
@@ -197,7 +204,7 @@
             class="c-img-text-vert col-10 offset-1 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-3 offset-lg-0"
           >
             <img
-              class="c-img-text-vert__icon"
+              class="c-img-text-vert__icon c-img-text-vert__icon--scale-down"
               src="./assets/INVENI_FINAL_ASSETS/SECTION_QUEHACEMOS/inveni_quehacemos_implementamos.svg"
               alt=""
             />
@@ -208,38 +215,44 @@
         </div>
         <div class="row">
           <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
-            <div class="c-list">
-              <h3>Tenemos experiencia diseñando:</h3>
-              <ul>
-                <li>
-                  Herramientas de diagnóstico, monitoreo y evaluación para
-                  atender problemáticas sociales
-                </li>
-                <li>
-                  Intervenciones para potenciar el bienestar de poblaciones
-                  vulnerables
-                </li>
-                <li>
-                  Sistemas de monitoreo de estándares de calidad de servicios
-                  educativos
-                </li>
-                <li>
-                  Materiales educativos para promover competencias
-                  socioemocionales y competencias tempranas en comunicación y
-                  matemática
-                </li>
-                <li>
-                  Programas de desarrollo profesional para mejorar competencias
-                  de gestión, comunicación y relaciones interpersonales
-                </li>
-              </ul>
+            <h3 class="c-section-heading c-section-heading--inner text-center">
+              Tenemos experiencia diseñando
+            </h3>
+
+            <div class="c-carousel u-mb-l">
+              <p class="">
+                Herramientas de diagnóstico, monitoreo y evaluación para atender
+                problemáticas sociales
+              </p>
+
+              <p class="">
+                Intervenciones para potenciar el bienestar de poblaciones
+                vulnerables
+              </p>
+
+              <p class="">
+                Sistemas de monitoreo de estándares de calidad de servicios
+                educativos
+              </p>
+
+              <p class="">
+                Materiales educativos para promover competencias
+                socioemocionales y competencias tempranas en comunicación y
+                matemática
+              </p>
+
+              <p class="">
+                Programas de desarrollo profesional para mejorar competencias de
+                gestión, comunicación y relaciones interpersonales
+              </p>
             </div>
           </div>
         </div>
       </section>
+
       <section class="container" id="servicios">
         <div
-          class="c-section-heading c-section-heading-border col-10 col-md-6 col-lg-4 offset-1 offset-md-3 offset-lg-4 u-align-center"
+          class="c-section-heading c-section-heading-border col-10 col-md-6 col-lg-5 offset-1 offset-md-3 offset-lg-4 u-align-center"
         >
           <h2 class="c-section-heading__title">Servicios</h2>
         </div>
@@ -382,6 +395,10 @@
     <a href="#content" id="toTheTop" class="c-to-top">&and;</a>
 
     <script src="vendor/jquery/jquery.slim-3.4.1.min.js"></script>
+    <script
+      type="text/javascript"
+      src="./vendor/slick-1.8.1/slick/slick.min.js"
+    ></script>
     <script src="vendor/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
     <script src="./src/js/index.js"></script>
   </body>
