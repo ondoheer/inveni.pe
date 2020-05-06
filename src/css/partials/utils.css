@@ -16,7 +16,7 @@
 }
 
 /*
-Titles
+Margins
 */
 
 .u-mb-xl {
@@ -38,6 +38,10 @@ Titles
 .u-my-xl {
   margin: 10rem auto 10rem auto;
 }
+
+.u-ml-m {
+  margin-left: 2rem;
+}
 @media screen and (max-width: 991px) {
   .u-my-xl {
     margin: 6rem auto 6rem auto;
@@ -46,4 +50,9 @@ Titles
 
 .u-py-l {
   padding: 7rem 0 7rem 0;
+}
+
+/* Transforms */
+.u-scale-sm {
+  transform: scale(1.1, 1.1);
 }
