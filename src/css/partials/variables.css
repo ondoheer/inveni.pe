@@ -1,8 +1,12 @@
 :root {
   --primary-color: #4a4a4a;
   --primary-color-support: #666;
+  --primary-color-support-2: #bcbcbc;
+  --primary-color-support-3: #f0f0f0;
 
   --support-color: #b3648f;
+
+  --text-color-light: #fff;
 
   /*Fonts */
 
@@ -16,13 +20,6 @@
   --font-s-title: 30px;
   --font-s-title-sm: 24px;
   --font-s-title-lg: 36px;
-
-  /*Font colors*/
-  --text-color-dark: #000;
-  --text-color-medium: #595959;
-  --text-color-medium-alt: rgba(255, 255, 255, 0.5);
-  --text-color-light-grey: #eee;
-  --text-color-light: #fff;
 }
 
 body {

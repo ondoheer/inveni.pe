@@ -48,29 +48,56 @@ IMage title text box
 .c-img-tit-text-box {
   display: block;
   height: 100%;
-  padding: 2rem 4rem;
-  border: 3px solid var(--primary-color);
-  cursor: pointer;
+  padding: 3rem 3rem;
+  border: 1px solid var(--primary-color-support-2);
+
   text-decoration: none;
-  color: var(--text-color-dark);
+  color: var(--primary-color);
+  border-radius: 5px;
+}
+
+.c-img-tit-text-box img {
+  display: block;
+  margin: auto;
 }
 
 .c-img-tit-text-box:hover {
+  background-color: var(--primary-color-support-3);
+  border-color: var(--primary-color-support-3);
+  transition: background-color 0.8s;
   text-decoration: none;
   color: inherit;
 }
-.c-img-tit-text-box:hover {
-  background-color: var(--support-color1);
-  transition: background-color 0.8s;
-}
-
-.c-img-tit-text-box:hover .c-img-tit-text-box__title {
-  color: var(--text-color-light);
-  transition: color 0.8s;
-}
 
 .c-img-tit-text-box__title {
-  color: var(--support-color1);
+  color: var(--support-color);
+  font-family: var(--title-font);
+  font-size: var(--font-s-title-sm);
+  text-transform: uppercase;
+  margin: 25px 0 45px 0;
+  text-align: center;
+}
+
+.c-img-tit-text-box__link {
+  color: transparent;
+  text-align: center;
+  transition: color 0.8s;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+}
+.c-img-tit-text-box:hover .c-img-tit-text-box__link {
+  color: var(--support-color);
+  text-decoration: none;
+}
+
+.c-img-tit-text-box__link i {
+  position: relative;
+  top: 3px;
+  margin-left: 3px;
+}
+.c-img-tit-text-box:hover .c-img-tit-text-box__link .c-img-tit-text-box__text {
+  text-align: center;
 }
 
 /*
