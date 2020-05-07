@@ -1,12 +1,22 @@
-.c-message-panel{
-    padding: 2rem;
-    font-size: 1.5rem;
-    background-color:var(--text-color-light);
-    border: 1px solid var(--primary-color);
+.c-message-panel {
+  padding: 5rem 3rem;
+  font-size: 1.5rem;
+  background-color: var(--text-color-light);
 }
 
-.c-message-panel p{
-    margin-bottom: 0;
-    font-weight: 600;
-    color: var(--text-color-medium);
+.c-message-panel p {
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: var(--font-s-title);
+  color: var(--primary-color-support);
+}
+
+.c-message-panel i {
+  color: var(--support-color);
+}
+
+.c-message-panel h3,
+.c-message-panel a {
+  font-size: var(--font-s-body);
+  color: var(--primary-color-support);
 }
