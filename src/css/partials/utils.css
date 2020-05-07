@@ -2,6 +2,10 @@
   background-color: var(--primary-color);
 }
 
+.u-bkg-dark-2 {
+  background-color: var(--primary-color-support);
+}
+
 .u-align-center {
   text-align: center;
 }
