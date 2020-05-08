@@ -61,6 +61,15 @@ Margins
   padding-left: 2rem;
 }
 
+.u-pb-m {
+  padding-bottom: 4rem;
+}
+
+@media screen and (max-width: 576px) {
+  .u-pb-m {
+    padding-bottom: 0;
+  }
+}
 @media screen and (max-width: 991px) {
   .u-pl-m {
     padding-left: 0rem;
@@ -74,8 +83,20 @@ Margins
     padding: 4rem 0 4rem 0;
   }
 }
+@media screen and (max-width: 576px) {
+  .u-py-l {
+    padding: 2rem 0 2rem 0;
+  }
+}
 
 /* Transforms */
 .u-scale-sm {
   transform: scale(1.1, 1.1);
+}
+
+@media screen and (max-width: 576px) {
+  .u-container-sm-disappear {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

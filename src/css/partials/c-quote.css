@@ -12,20 +12,28 @@
     padding: 4rem;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .c-quote--large {
+    padding: 2rem;
+  }
+}
 .c-quote--large .c-quote__text {
   font-size: var(--font-s-main-quotes);
 }
+
+@media screen and (max-width: 576px) {
+  .c-quote--large .c-quote__text {
+    font-size: var(--font-s-main-quotes);
+  }
+}
+
 .c-quote__text {
   font-family: var(--main-font);
 
   font-weight: 300;
   line-height: 40px;
   quotes: "\201C""\201D""\2018""\2019";
-}
-
-.c-quote .c-quote__text--small + .c-quote__footer,
-.c-quote__text--small {
-  font-size: 0.8rem;
 }
 
 .c-quote__text--support1 {
@@ -48,6 +56,14 @@
 @media screen and (max-width: 768px) {
   .c-quote__footer {
     top: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .c-quote__cite,
+  .c-quote__author {
+    font-size: var(--font-s-quote-data);
+    text-align: right;
   }
 }
 .c-quote__cite {

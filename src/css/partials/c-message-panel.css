@@ -3,7 +3,11 @@
   font-size: 1.5rem;
   background-color: var(--text-color-light);
 }
-
+@media screen and (max-width: 576px) {
+  .c-message-panel {
+    padding: 3rem 2rem 3rem;
+  }
+}
 .c-message-panel__text {
   margin-bottom: 0;
   font-weight: 300;
@@ -32,6 +36,13 @@
 .c-contact-info .c-contact-info__tel {
   margin-top: 2.5rem;
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 576px) {
+  .c-message-panel .c-contact-info__mail,
+  .c-contact-info .c-contact-info__tel {
+    margin-top: 1.5rem;
+  }
 }
 
 .c-contact-info .c-contact-info__mail a,

@@ -39,3 +39,9 @@
 .c-header .navbar-collapse.show .navbar-nav {
   align-items: end;
 }
+
+@media screen and (max-width: 576px) {
+  .c-header .navbar {
+    padding-right: 3rem;
+  }
+}

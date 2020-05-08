@@ -5,3 +5,9 @@
   font-size: var(--font-s-body);
   padding: 4rem 0;
 }
+
+@media screen and (max-width: 576px) {
+  .c-footer .c-copy {
+    padding: 2rem 2rem;
+  }
+}

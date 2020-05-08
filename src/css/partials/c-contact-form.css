@@ -5,6 +5,12 @@
   border-radius: 5px;
 }
 
+@media screen and (max-width: 576px) {
+  .c-contact-form {
+    padding: 3rem 1.5rem;
+    margin-top: 10px;
+  }
+}
 .c-contact-form input,
 .c-contact-form textarea {
   background-color: var(--text-color-light);
