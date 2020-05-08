@@ -7,11 +7,15 @@
   padding: 8rem 4rem;
 }
 
+@media screen and (max-width: 768px) {
+  .c-quote--large {
+    padding: 4rem;
+  }
+}
 .c-quote--large .c-quote__text {
   font-size: var(--font-s-main-quotes);
 }
 .c-quote__text {
-  
   font-family: var(--main-font);
 
   font-weight: 300;
@@ -41,6 +45,11 @@
   font-size: var(--font-s-quote-data);
 }
 
+@media screen and (max-width: 768px) {
+  .c-quote__footer {
+    top: 1rem;
+  }
+}
 .c-quote__cite {
   font-size: var(--font-s-body-sm);
   font-weight: 600;

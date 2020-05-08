@@ -26,6 +26,11 @@ Margins
 .u-mb-xl {
   margin-bottom: 15rem;
 }
+@media screen and (max-width: 768px) {
+  .u-mb-xl {
+    margin-bottom: 10rem;
+  }
+}
 
 .u-mb-l {
   margin-bottom: 7rem;
@@ -43,17 +48,31 @@ Margins
   margin: 10rem auto 10rem auto;
 }
 
-.u-ml-m {
-  margin-left: 2rem;
-}
 @media screen and (max-width: 991px) {
   .u-my-xl {
     margin: 6rem auto 6rem auto;
   }
 }
+.u-ml-m {
+  margin-left: 2rem;
+}
 
+.u-pl-m {
+  padding-left: 2rem;
+}
+
+@media screen and (max-width: 991px) {
+  .u-pl-m {
+    padding-left: 0rem;
+  }
+}
 .u-py-l {
   padding: 7rem 0 7rem 0;
+}
+@media screen and (max-width: 768px) {
+  .u-py-l {
+    padding: 4rem 0 4rem 0;
+  }
 }
 
 /* Transforms */

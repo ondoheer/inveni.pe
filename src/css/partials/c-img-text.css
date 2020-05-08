@@ -16,12 +16,25 @@
   .c-img-text-horiz img {
     margin: 0 auto 1rem;
   }
+  .c-img-text-horiz--left .row {
+    flex-direction: column-reverse;
+  }
+  .c-img-text-horiz p {
+    margin-bottom: 3rem;
+  }
 }
 
 /*IMG TEXT VERT*/
 .c-img-text-vert {
   text-align: center;
 }
+
+@media screen and (max-width: 991px) {
+  .c-img-text-vert {
+    margin-bottom: 4rem;
+  }
+}
+
 .c-img-text-vert__icon {
   width: 125px;
   margin-bottom: 30px;

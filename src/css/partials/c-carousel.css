@@ -58,3 +58,9 @@
   font-size: var(--font-s-body);
   color: var(--primary-color);
 }
+
+@media screen and (max-width: 991px) {
+  .c-carousel p {
+    text-align: center;
+  }
+}

@@ -14,14 +14,17 @@ function scrollFunction() {
   ) {
     // Header
     document.getElementById("logo").style.width = "140px";
-    // to the top button
-    document.getElementById("toTheTop").style.display = "block";
   } else {
     // header
     document.getElementById("logo").style.width = "200px";
-    // to the top button
-    document.getElementById("toTheTop").style.display = "none";
   }
 }
 
 $(".c-carousel").slick({ dots: true });
+
+// Close menu when clicking it
+$(".navbar-collapse ul li").click(function () {
+  var menu = document
+    .getElementById("navbarSupportedContent")
+    .classList.remove("show");
+});
