@@ -79,7 +79,7 @@ IMage title text box
 }
 
 .c-img-tit-text-box__link {
-  color: transparent;
+  color: var(--primary-color);
   text-align: center;
   transition: color 0.8s;
   display: block;
