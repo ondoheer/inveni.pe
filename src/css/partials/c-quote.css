@@ -18,6 +18,11 @@
     padding: 2rem;
   }
 }
+
+.c-quote--transparent {
+  background-color: transparent;
+}
+
 .c-quote--large .c-quote__text {
   font-size: var(--font-s-main-quotes);
 }
