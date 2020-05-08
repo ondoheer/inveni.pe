@@ -5,9 +5,11 @@
   /*background-color: var(--primary-color);*/
 }
 
-.u-bkg-puzzle {
-  background-image: url(../../../assets/INVENI_FINAL_ASSETS/INTERNAS_SERVICIOS/inveni_desarrolloestrategico_inner_background.jpg);
+.u-bkg-img {
   background-repeat: no-repeat;
   background-position-x: 30%;
-  background-position-y: 200%;
+  background-position-y: -120px;
+}
+.u-bkg-img--puzzle {
+  background-image: url(../../../assets/INVENI_FINAL_ASSETS/INTERNAS_SERVICIOS/inveni_desarrolloestrategico_inner_background.jpg);
 }

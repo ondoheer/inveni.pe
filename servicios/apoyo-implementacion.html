@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apoyo e Implementación | Inveni</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Zilla+Slab:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../vendor/bootstrap-4.4.1-dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../vendor/slick-1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="../vendor/slick-1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="../icomoon/style.css" />
+    <link rel="stylesheet" href="../src/css/style.css" />
+  </head>
+
+  <body>
+    <header class="c-header u-bkg-dark">
+      <div class="container u-container-sm-disappear">
+        <nav
+          class="c-main-menu navbar navbar-dark navbar-expand-lg justify-content-between"
+        >
+          <a class="navbar-brand" href="/">
+            <img
+              id="logo"
+              src="../assets/INVENI_FINAL_ASSETS/SECTION_MAIN/inveni_header_logo.svg"
+              alt="Logo Inveni"
+          /></a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="/" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#somos" class="nav-link">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a href="#hacemos" class="nav-link">Qué Hacemos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#servicios" class="nav-link active">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contacto" class="nav-link">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content" class="main-content">
+      <div class="u-bkg-img u-bkg-img--puzzle">
+        <div class="container">
+          <blockquote
+            class="c-quote c-quote--large c-quote--transparent col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2"
+          >
+            <p class="c-quote__text">
+              “Entender las motivaciones y limitaciones de cada persona puede
+              llevar a políticas e instituciones mejor diseñadas y menos
+              propensas a la corrupción. Estos cambios, que se sostienen y
+              construyen sobre sí mismos, pueden ser el inicio de una revolución
+              silenciosa.”
+            </p>
+            <footer class="c-quote__footer">
+              <span class="c-quote__author">
+                Abhijit Banerjee & Esther Duflo
+              </span>
+              <span class="c-quote__cite">
+                Premios Nóbel de Economía 2019
+              </span>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+
+      <section class="u-bkg-seo u-py-l" id="contacto">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
+              <div class="c-message-panel">
+                <p>Cuéntanos tu reto.</p>
+                <p class="c-message-panel__text">
+                  Hagámoslo una oportunidad para crecer.
+                </p>
+                <div class="c-contact-info">
+                  <div class="c-contact-info__mail">
+                    <h3><i class="icon-paper-plane"></i> Contacto:</h3>
+                    <a href="maitlo:hola@inveni.pe">hola@inveni.pe</a>
+                  </div>
+                  <div class="c-contact-info__tel">
+                    <a href="tel:+51961730227"
+                      ><i class="icon-mobile"></i> +51961730227</a
+                    >
+                    <a href="tel:++51966711188">+51966711188</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-5">
+              <form action="" class="c-contact-form">
+                <div class="row">
+                  <div class="col-12">
+                    <label for="name">Nombre *</label>
+                    <input
+                      type="text"
+                      placeholder="ej. Inkel Flexler"
+                      id="name"
+                      name="name"
+                      required
+                    />
+                  </div>
+                  <div class="col-12">
+                    <label for="email">Correo electrónico *</label>
+                    <input
+                      type="text"
+                      placeholder="ej. inkelflexler@michamba.com"
+                      id="email"
+                      name="email"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12">
+                    <label for="message"
+                      >¿Qué reto tienes para nosotros hoy? *</label
+                    >
+                    <textarea
+                      name="message"
+                      placeholder="ej. Quisiera me ayuden a definir..."
+                      id="message"
+                      rows="5"
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <button class="" type="submit">Enviar</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="c-footer u-bkg-dark-2">
+      <div class="c-copy">
+        &copy; Inveni 2020, todos los derechos reservados
+      </div>
+    </footer>
+
+    <script src="../vendor/jquery/jquery.slim-3.4.1.min.js"></script>
+    <script
+      type="text/javascript"
+      src="../vendor/slick-1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="../vendor/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <script src="../src/js/index.js"></script>
+  </body>
+</html>
