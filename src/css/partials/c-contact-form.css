@@ -47,3 +47,9 @@
 .c-contact-form textarea::placeholder {
   font-size: 14px;
 }
+
+@media screen and (max-width: 991px) {
+  .c-contact-form button {
+    width: 100%;
+  }
+}
