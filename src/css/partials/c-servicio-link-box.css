@@ -1,0 +1,34 @@
+.c-servicio-link-box {
+  text-align: center;
+  transition: background-color 0.8s;
+  padding: 1rem 0;
+  max-width: 235px;
+}
+
+.c-servicio-link-box:nth-child(even) {
+  max-width: 231px;
+  margin: 0 50px;
+}
+
+@media screen and (max-width: 576px) {
+  .c-servicio-link-box:nth-child(even) {
+    margin: 0;
+  }
+}
+
+.c-servicio-link-box:hover {
+  text-decoration: none;
+  background-color: var(--primary-color-support-3);
+  border-radius: 5px;
+}
+.c-servicio-link-box:hover .c-servicio-link-box__title {
+  color: var(--support-color);
+}
+.c-servicio-link-box__title {
+  font-size: var(--font-s-body);
+  color: var(--support-color);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: var(--title-font);
+  margin-top: 2rem;
+}

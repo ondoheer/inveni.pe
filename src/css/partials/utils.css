@@ -65,6 +65,10 @@ Margins
   padding-bottom: 4rem;
 }
 
+.u-pb-xl {
+  padding-bottom: 11rem;
+}
+
 @media screen and (max-width: 576px) {
   .u-pb-m {
     padding-bottom: 0;
