@@ -11,6 +11,7 @@
 
 .c-servicios-content__list-title {
   font-size: var(--font-s-title-sm);
+  font-family: var(--title-font);
   color: var(--support-color);
   text-transform: uppercase;
   padding-top: 2rem;
