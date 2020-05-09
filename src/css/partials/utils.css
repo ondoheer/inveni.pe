@@ -96,6 +96,7 @@ Margins
 /* Transforms */
 .u-scale-sm {
   transform: scale(1.1, 1.1);
+  max-width: 100%;
 }
 
 @media screen and (max-width: 576px) {
