@@ -38,3 +38,10 @@
 body {
   font-family: var(--main-font);
 }
+
+button::-moz-focus-inner {
+  border: 0;
+}
+*:focus {
+  outline: none;
+}
