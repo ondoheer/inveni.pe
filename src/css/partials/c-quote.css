@@ -64,6 +64,10 @@
   }
 }
 
+.c-quote__cite,
+.c-quote__author {
+  align-self: flex-end;
+}
 @media screen and (max-width: 576px) {
   .c-quote__cite,
   .c-quote__author {
