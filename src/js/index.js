@@ -20,7 +20,19 @@ function scrollFunction() {
   }
 }
 
-$(".c-carousel").slick({ dots: true });
+$(".c-carousel").slick({
+  dots: true,
+  infinite: true,
+  autoplay: true,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+      },
+    },
+  ],
+});
 
 // Close menu when clicking it
 $(".navbar-collapse ul li").click(function () {
