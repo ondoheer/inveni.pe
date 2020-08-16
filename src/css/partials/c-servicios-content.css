@@ -21,14 +21,14 @@
 .c-servicios-content__list {
   color: var(--primary-color);
   padding-left: 10px;
-  list-style: none;
+  list-style: circle;
 }
 
-.c-servicios-content__list-item:before {
+/* .c-servicios-content__list-item:before {
   content: "\00b7";
   font-size: 1.5em;
   line-height: 0.5em;
   position: relative;
   left: -10px;
   top: 3px;
-}
+} */
