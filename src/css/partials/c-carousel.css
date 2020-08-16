@@ -4,8 +4,19 @@
 .c-carousel.slick-dotted.slick-slider {
   margin-bottom: 7rem;
 }
+@media screen and (max-width: 576px) {
+  .c-carousel.slick-dotted.slick-slider {
+    margin-bottom: 3rem;
+  }
+}
 .c-carousel .slick-dots {
   bottom: -60px;
+}
+
+@media screen and (max-width: 576px) {
+  .c-carousel .slick-dots {
+    bottom: unset;
+  }
 }
 .c-carousel .slick-dots li button {
   width: 13px;

@@ -31,9 +31,19 @@ Margins
     margin-bottom: 10rem;
   }
 }
-
+@media screen and (max-width: 567px) {
+  .u-mb-xl {
+    margin-bottom: 6rem;
+  }
+}
 .u-mb-l {
   margin-bottom: 7rem;
+}
+
+@media screen and (max-width: 567px){
+  .u-mb-l{
+    margin-bottom: 3rem;
+  }
 }
 
 .u-mb-m {

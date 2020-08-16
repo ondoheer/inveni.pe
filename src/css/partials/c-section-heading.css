@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 576px) {
   .c-section-heading {
-    margin: 4rem auto 4rem auto;
+    margin: 4rem auto 3rem auto;
   }
 }
 
@@ -17,6 +17,14 @@
   color: var(--support-color);
   font-family: var(--title-font);
   font-size: var(--font-s-title);
+}
+
+@media screen and (max-width: 576px) {
+  .c-section-heading--inner {
+    margin: 2rem auto 1rem auto;
+    font-family: var(--main-font);
+    font-weight: 600;
+  }
 }
 .c-section-heading-border {
   border-top: 3px solid var(--primary-color);
@@ -28,6 +36,12 @@
 
 .c-section-heading--small-mb {
   margin-bottom: 3.5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .c-section-heading--small-mb {
+    margin-bottom: 2rem;
+  }
 }
 
 .c-section-heading__title {

@@ -9,9 +9,18 @@
 .c-img-text-horiz--right {
   text-align: right;
 }
+
+
 @media screen and (max-width: 991px) {
   .c-img-text-horiz {
     text-align: center;
+  }
+
+  @media screen and (max-width: 576px) {
+    .c-img-text-horiz p{
+      line-height: 1.1;
+      margin-bottom: 2rem;
+    }
   }
   .c-img-text-horiz img {
     margin: 0 auto 1rem;
@@ -20,9 +29,7 @@
   .c-img-text-horiz--left .row {
     flex-direction: column-reverse;
   }
-  .c-img-text-horiz p {
-    margin-bottom: 3rem;
-  }
+
 }
 
 /*IMG TEXT VERT*/
@@ -35,14 +42,34 @@
     margin-bottom: 4rem;
   }
 }
+@media screen and (max-width: 576px) {
+  .c-img-text-vert {
+    margin-bottom: 2rem;
+  }
+}
+
 
 .c-img-text-vert__icon {
   width: 125px;
   margin-bottom: 30px;
 }
+@media screen and (max-width: 576px){
+  .c-img-text-vert__icon {
+    width: 85px;
+    margin-bottom: 20px;
+  }
+}
 
 .c-img-text-vert__icon--scale-down {
   height: 150px;
+}
+
+@media screen and (max-width: 576px) {
+  .c-img-text-vert__icon--scale-down {
+    margin-bottom: 1rem;
+    height: unset;
+    width: 70px;
+  }
 }
 .c-img-text-vert__text {
   font-size: var(--font-s-body);
@@ -69,12 +96,29 @@ IMage title text box
   color: var(--primary-color);
   border-radius: 5px;
 }
+
+@media screen and (max-width: 576px) {
+  .c-img-tit-text-box{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 .c-img-tit-text-box__text{
   font-size: var(--font-s-body-sm);
 }
 .c-img-tit-text-box img {
   display: block;
   margin: auto;
+}
+@media screen and (max-width: 576px) {
+  .c-img-tit-text-box img {
+    width: 65px;
+  }
+
+  .c-img-tit-text-box img.c-img-tit-text-box__img--sm{
+    width: 50px;
+  }
 }
 
 .c-img-tit-text-box:hover {
@@ -92,6 +136,17 @@ IMage title text box
   text-transform: uppercase;
   margin: 25px 0 45px 0;
   text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .c-img-tit-text-box__title{
+    margin-bottom: 15px;
+    text-align: left;
+    flex-basis: 180px;
+    margin-left: 10px;
+
+
+  }
 }
 
 .c-img-tit-text-box__link {

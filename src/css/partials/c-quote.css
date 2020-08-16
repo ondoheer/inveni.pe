@@ -30,6 +30,7 @@
 @media screen and (max-width: 576px) {
   .c-quote--large .c-quote__text {
     font-size: var(--font-s-main-quotes);
+    line-height: 1.1;
   }
 }
 

@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 576px) {
   .c-contact-form {
-    padding: 3rem 1.5rem;
+    padding: 1rem 1rem;
     margin-top: 10px;
   }
 }
@@ -23,7 +23,12 @@
   margin-bottom: 1.5rem;
   color: var(--primary-color);
 }
-
+@media screen and (max-width: 576px) {
+  .c-contact-form input,
+.c-contact-form textarea{
+  line-height: 1;
+}
+}
 .c-contact-form textarea {
   width: 100%;
 }
@@ -34,7 +39,11 @@
   font-weight: 600;
   font-size: var(--font-s-body);
 }
-
+@media screen and (max-width: 576px) {
+  .c-contact-form label{
+    font-size: 15px;
+  }
+}
 .c-contact-form button[type="submit"] {
   border: none;
   border-radius: 5px;
