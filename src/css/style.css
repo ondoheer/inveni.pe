@@ -16,6 +16,17 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  font-family: var(--main-font);
+  font-size: 18px;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+*:focus {
+  outline: none;
+}
 
 [id] {
   scroll-margin-top: 120px;
