@@ -18,6 +18,10 @@
   background-image: url(../../../assets/INVENI_FINAL_ASSETS/INTERNAS_SERVICIOS/inveni_icon_mejoradecalidad_inner_background.jpg);
 }
 
+.u-bkg-img--doc {
+  background-image: url(../../../assets/INVENI_FINAL_ASSETS/INTERNAS_SERVICIOS/inveni_icon_desarrollodecontenidos_inner_background.jpg);
+}
+
 .u-bkg-img--satelites {
   background-image: url(../../../assets/INVENI_FINAL_ASSETS/INTERNAS_SERVICIOS/iveni_icon_apoyoenimplementacion_inner_background.jpg);
 }
