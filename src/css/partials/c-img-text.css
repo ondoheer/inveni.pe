@@ -107,6 +107,12 @@ IMage title text box
 .c-img-tit-text-box__text{
   font-size: var(--font-s-body-sm);
 }
+
+@media screen and (max-width: 576px) {
+  .c-img-tit-text-box__text{
+    font-size: var(--font-s-body);
+  }
+}
 .c-img-tit-text-box img {
   display: block;
   margin: auto;
@@ -156,6 +162,12 @@ IMage title text box
   display: block;
   text-align: center;
   cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .c-img-tit-text-box__link{
+    font-size: var(--font-s-body-sm);
+  }
 }
 .c-img-tit-text-box:hover .c-img-tit-text-box__link {
   color: var(--support-color);
