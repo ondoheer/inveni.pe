@@ -69,7 +69,9 @@ IMage title text box
   color: var(--primary-color);
   border-radius: 5px;
 }
-
+.c-img-tit-text-box__text{
+  font-size: var(--font-s-body-sm);
+}
 .c-img-tit-text-box img {
   display: block;
   margin: auto;
