@@ -32,3 +32,11 @@
   font-family: var(--title-font);
   margin-top: 2rem;
 }
+
+.c-servicio-link-box__img{}
+
+@media screen and (max-width: 576px) {
+  .c-servicio-link-box__img{
+    width: 85px;
+  }
+}
