@@ -25,6 +25,7 @@
   .c-img-text-horiz img {
     margin: 0 auto 1rem;
     max-width: 90vw;
+    overflow: hidden;
   }
   .c-img-text-horiz--left .row {
     flex-direction: column-reverse;

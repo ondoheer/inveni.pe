@@ -19,6 +19,8 @@
 @media screen and (max-width: 576px) {
   .c-message-panel__text {
     font-size: 18px;
+    color: var(--support-color);
+    font-weight: 600;
   }
 }
 .c-message-panel i {
