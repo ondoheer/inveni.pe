@@ -13,4 +13,5 @@ deployment:
     - /bin/cp site.webmanifest $DEPLOYPATH
     - /bin/cp browserconfig.xml $DEPLOYPATH
     - /bin/cp safari-pinned-tab.svg $DEPLOYPATH
+    - /bin/cp sitemap.xml $DEPLOYPATH
     
